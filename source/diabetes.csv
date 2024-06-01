@@ -19,14 +19,10 @@ ZLA2500,readv2
 8H2J.00,readv2
 66AG.00,readv2
 2G5B.00,readv2
-13AB.00,readv2
 F440700,readv2
 66AJ100,readv2
 N030011,readv2
-13AC.00,readv2
-13B1.00,readv2
 M037200,readv2
-66A3.00,readv2
 250 PR,readv2
 250 AN,readv2
 250 HP,readv2
@@ -300,8 +296,11 @@ C106100,readv2
 66A7000,readv2
 66AU.00,readv2
 66A9.00,readv2
-ZL22500,readv2
-9NN9.00,readv2
+13AB.00,readv2
+13AC.00,readv2
+13B1.00,readv2
+66A3.00,readv2
+250 DC,readv2
 66AT.00,readv2
 66AS.00,readv2
 9N0o.00,readv2
@@ -343,6 +342,8 @@ C10FS00,readv2
 C109.13,readv2
 C109.12,readv2
 C10E.11,readv2
+ZL22500,readv2
+9NN9.00,readv2
 2G51000,readv2
 2BBF.00,readv2
 2G5C.00,readv2
@@ -363,7 +364,6 @@ C109712,readv2
 42c..00,readv2
 66AI.00,readv2
 42WZ.00,readv2
-250 DC,readv2
 L2500GC,readv2
 L2500PC,readv2
 2G5A.00,readv2
