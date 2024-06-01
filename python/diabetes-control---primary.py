@@ -2,7 +2,7 @@
 
 import sys, csv, re
 
-codes = [{"code":"42c2.00","system":"readv2"},{"code":"C10F711","system":"readv2"},{"code":"42c0.00","system":"readv2"},{"code":"C10F700","system":"readv2"},{"code":"42W..00","system":"readv2"},{"code":"C10E800","system":"readv2"},{"code":"42W1.00","system":"readv2"},{"code":"66AJz00","system":"readv2"},{"code":"C108812","system":"readv2"},{"code":"66AJ.00","system":"readv2"},{"code":"C109711","system":"readv2"},{"code":"42W3.00","system":"readv2"},{"code":"C108811","system":"readv2"},{"code":"C109712","system":"readv2"},{"code":"42c..00","system":"readv2"},{"code":"66AI.00","system":"readv2"},{"code":"42WZ.00","system":"readv2"},{"code":"250 DC","system":"readv2"},{"code":"L2500GC","system":"readv2"},{"code":"L2500PC","system":"readv2"}];
+codes = [{"code":"42c2.00","system":"readv2"},{"code":"C10F711","system":"readv2"},{"code":"42c0.00","system":"readv2"},{"code":"C10F700","system":"readv2"},{"code":"42W..00","system":"readv2"},{"code":"C10E800","system":"readv2"},{"code":"42W1.00","system":"readv2"},{"code":"66AJz00","system":"readv2"},{"code":"C108812","system":"readv2"},{"code":"66AJ.00","system":"readv2"},{"code":"C109711","system":"readv2"},{"code":"42W3.00","system":"readv2"},{"code":"C108811","system":"readv2"},{"code":"C109712","system":"readv2"},{"code":"42c..00","system":"readv2"},{"code":"66AI.00","system":"readv2"},{"code":"42WZ.00","system":"readv2"},{"code":"L2500GC","system":"readv2"},{"code":"L2500PC","system":"readv2"}];
 REQUIRED_CODES = 1;
 with open(sys.argv[1], 'r') as file_in, open('diabetes-potential-cases.csv', 'w', newline='') as file_out:
     csv_reader = csv.DictReader(file_in)

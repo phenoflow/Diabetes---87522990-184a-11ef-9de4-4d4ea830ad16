@@ -338,8 +338,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: adult-diabetes---primary/output
-  under-diabetes---primary:
-    run: under-diabetes---primary.cwl
+  dietary-diabetes---primary:
+    run: dietary-diabetes---primary.cwl
     out:
     - output
     in:
@@ -359,7 +359,7 @@ steps:
         source: inputModule33
       potentialCases:
         id: potentialCases
-        source: under-diabetes---primary/output
+        source: dietary-diabetes---primary/output
   diabetes-community---primary:
     run: diabetes-community---primary.cwl
     out:
@@ -426,8 +426,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: arthropathy-diabetes---primary/output
-  diabetes-related---primary:
-    run: diabetes-related---primary.cwl
+  under-diabetes---primary:
+    run: under-diabetes---primary.cwl
     out:
     - output
     in:
@@ -437,6 +437,17 @@ steps:
       potentialCases:
         id: potentialCases
         source: diabetes-mellitus---primary/output
+  diabetes-related---primary:
+    run: diabetes-related---primary.cwl
+    out:
+    - output
+    in:
+      inputModule:
+        id: inputModule
+        source: inputModule41
+      potentialCases:
+        id: potentialCases
+        source: under-diabetes---primary/output
   diabetes-control---primary:
     run: diabetes-control---primary.cwl
     out:
@@ -444,7 +455,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule41
+        source: inputModule42
       potentialCases:
         id: potentialCases
         source: diabetes-related---primary/output
@@ -455,7 +466,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule42
+        source: inputModule43
       potentialCases:
         id: potentialCases
         source: diabetes-control---primary/output
@@ -466,7 +477,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule43
+        source: inputModule44
       potentialCases:
         id: potentialCases
         source: right-diabetes---primary/output
@@ -477,7 +488,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule44
+        source: inputModule45
       potentialCases:
         id: potentialCases
         source: diabetes-injection---primary/output
@@ -488,7 +499,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule45
+        source: inputModule46
       potentialCases:
         id: potentialCases
         source: diabetes-check---primary/output
@@ -499,7 +510,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule46
+        source: inputModule47
       potentialCases:
         id: potentialCases
         source: diabetes-assessment---primary/output
@@ -510,7 +521,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule47
+        source: inputModule48
       potentialCases:
         id: potentialCases
         source: diabetes-review---primary/output
@@ -521,7 +532,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule48
+        source: inputModule49
       potentialCases:
         id: potentialCases
         source: diabetes-proteinuria---primary/output
@@ -532,7 +543,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule49
+        source: inputModule50
       potentialCases:
         id: potentialCases
         source: ketoacidotic-diabetes---primary/output
@@ -543,7 +554,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule50
+        source: inputModule51
       potentialCases:
         id: potentialCases
         source: diabetes-amyotrophy---primary/output
@@ -554,7 +565,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule51
+        source: inputModule52
       potentialCases:
         id: potentialCases
         source: diabetes-changed---primary/output
@@ -565,7 +576,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule52
+        source: inputModule53
       potentialCases:
         id: potentialCases
         source: neurological-diabetes---primary/output
@@ -576,7 +587,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule53
+        source: inputModule54
       potentialCases:
         id: potentialCases
         source: diabetes-unspecified---primary/output
@@ -587,7 +598,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule54
+        source: inputModule55
       potentialCases:
         id: potentialCases
         source: diabetes-preexisting---primary/output
@@ -598,7 +609,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule55
+        source: inputModule56
       potentialCases:
         id: potentialCases
         source: dominant-diabetes---primary/output
@@ -609,7 +620,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule56
+        source: inputModule57
       potentialCases:
         id: potentialCases
         source: diabetes-screener---primary/output
@@ -620,7 +631,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule57
+        source: inputModule58
       potentialCases:
         id: potentialCases
         source: juvenile-diabetes---primary/output
@@ -631,7 +642,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule58
+        source: inputModule59
       potentialCases:
         id: potentialCases
         source: diabetes-niddm---primary/output
@@ -642,7 +653,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule59
+        source: inputModule60
       potentialCases:
         id: potentialCases
         source: pancreatic-diabetes---primary/output
@@ -653,7 +664,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule60
+        source: inputModule61
       potentialCases:
         id: potentialCases
         source: multidisciplinary-diabetes---primary/output
@@ -664,7 +675,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule61
+        source: inputModule62
       potentialCases:
         id: potentialCases
         source: angiopathy-diabetes---primary/output
@@ -675,7 +686,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule62
+        source: inputModule63
       potentialCases:
         id: potentialCases
         source: diabetes-followup---primary/output
@@ -686,7 +697,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule63
+        source: inputModule64
       potentialCases:
         id: potentialCases
         source: stable-diabetes---primary/output
@@ -697,7 +708,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule64
+        source: inputModule65
       potentialCases:
         id: potentialCases
         source: diabetes-monitoring---primary/output
@@ -708,7 +719,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule65
+        source: inputModule66
       potentialCases:
         id: potentialCases
         source: diabetes-screening---primary/output
@@ -719,7 +730,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule66
+        source: inputModule67
       potentialCases:
         id: potentialCases
         source: diabetes-given---primary/output
@@ -730,7 +741,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule67
+        source: inputModule68
       potentialCases:
         id: potentialCases
         source: clinic-diabetes---primary/output
@@ -741,7 +752,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule68
+        source: inputModule69
       potentialCases:
         id: potentialCases
         source: diabetes-albumin---primary/output
@@ -752,7 +763,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule69
+        source: inputModule70
       potentialCases:
         id: potentialCases
         source: patient-diabetes---primary/output
@@ -763,7 +774,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule70
+        source: inputModule71
       potentialCases:
         id: potentialCases
         source: digital-diabetes---primary/output
@@ -774,7 +785,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule71
+        source: inputModule72
       potentialCases:
         id: potentialCases
         source: nonketotic-diabetes---primary/output
@@ -785,7 +796,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule72
+        source: inputModule73
       potentialCases:
         id: potentialCases
         source: moderate-diabetes---primary/output
@@ -796,7 +807,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule73
+        source: inputModule74
       potentialCases:
         id: potentialCases
         source: diabetes-excretion---primary/output
@@ -807,7 +818,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule74
+        source: inputModule75
       potentialCases:
         id: potentialCases
         source: diabetes-youth---primary/output
@@ -818,7 +829,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule75
+        source: inputModule76
       potentialCases:
         id: potentialCases
         source: diabetes-attack---primary/output
@@ -829,7 +840,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule76
+        source: inputModule77
       potentialCases:
         id: potentialCases
         source: advanced-diabetes---primary/output
@@ -840,7 +851,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule77
+        source: inputModule78
       potentialCases:
         id: potentialCases
         source: diabetes-examination---primary/output
@@ -851,7 +862,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule78
+        source: inputModule79
       potentialCases:
         id: potentialCases
         source: diabetes-nurse---primary/output
@@ -862,7 +873,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule79
+        source: inputModule80
       potentialCases:
         id: potentialCases
         source: diabetes-needle---primary/output
@@ -873,7 +884,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule80
+        source: inputModule81
       potentialCases:
         id: potentialCases
         source: diabetes-manifestation---primary/output
@@ -884,7 +895,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule81
+        source: inputModule82
       potentialCases:
         id: potentialCases
         source: exudative-diabetes---primary/output
@@ -895,7 +906,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule82
+        source: inputModule83
       potentialCases:
         id: potentialCases
         source: diabetes-shared---primary/output
@@ -906,7 +917,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule83
+        source: inputModule84
       potentialCases:
         id: potentialCases
         source: diabetes-charcot---primary/output
@@ -917,7 +928,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule84
+        source: inputModule85
       potentialCases:
         id: potentialCases
         source: diabetes-programme---primary/output
@@ -928,7 +939,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule85
+        source: inputModule86
       potentialCases:
         id: potentialCases
         source: diabetes-pregnancy---primary/output
@@ -939,7 +950,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule86
+        source: inputModule87
       potentialCases:
         id: potentialCases
         source: diabetes-state---primary/output
@@ -950,7 +961,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule87
+        source: inputModule88
       potentialCases:
         id: potentialCases
         source: diabetes-abnormality---primary/output
@@ -1302,6 +1313,10 @@ inputs:
     type: File
   inputModule87:
     id: inputModule87
+    doc: Python implementation unit
+    type: File
+  inputModule88:
+    id: inputModule88
     doc: Python implementation unit
     type: File
 outputs:
