@@ -93,7 +93,7 @@ inputModule31:
   path: python/hospital-diabetes---primary.py
 inputModule32:
   class: File
-  path: python/under-diabetes---primary.py
+  path: python/dietary-diabetes---primary.py
 inputModule33:
   class: File
   path: python/annual-diabetes---primary.py
@@ -117,145 +117,148 @@ inputModule39:
   path: python/diabetes-mellitus---primary.py
 inputModule40:
   class: File
-  path: python/diabetes-related---primary.py
+  path: python/under-diabetes---primary.py
 inputModule41:
   class: File
-  path: python/diabetes-control---primary.py
+  path: python/diabetes-related---primary.py
 inputModule42:
   class: File
-  path: python/right-diabetes---primary.py
+  path: python/diabetes-control---primary.py
 inputModule43:
   class: File
-  path: python/diabetes-injection---primary.py
+  path: python/right-diabetes---primary.py
 inputModule44:
   class: File
-  path: python/diabetes-check---primary.py
+  path: python/diabetes-injection---primary.py
 inputModule45:
   class: File
-  path: python/diabetes-assessment---primary.py
+  path: python/diabetes-check---primary.py
 inputModule46:
   class: File
-  path: python/diabetes-review---primary.py
+  path: python/diabetes-assessment---primary.py
 inputModule47:
   class: File
-  path: python/diabetes-proteinuria---primary.py
+  path: python/diabetes-review---primary.py
 inputModule48:
   class: File
-  path: python/ketoacidotic-diabetes---primary.py
+  path: python/diabetes-proteinuria---primary.py
 inputModule49:
   class: File
-  path: python/diabetes-amyotrophy---primary.py
+  path: python/ketoacidotic-diabetes---primary.py
 inputModule50:
   class: File
-  path: python/diabetes-changed---primary.py
+  path: python/diabetes-amyotrophy---primary.py
 inputModule51:
   class: File
-  path: python/neurological-diabetes---primary.py
+  path: python/diabetes-changed---primary.py
 inputModule52:
   class: File
-  path: python/diabetes-unspecified---primary.py
+  path: python/neurological-diabetes---primary.py
 inputModule53:
   class: File
-  path: python/diabetes-preexisting---primary.py
+  path: python/diabetes-unspecified---primary.py
 inputModule54:
   class: File
-  path: python/dominant-diabetes---primary.py
+  path: python/diabetes-preexisting---primary.py
 inputModule55:
   class: File
-  path: python/diabetes-screener---primary.py
+  path: python/dominant-diabetes---primary.py
 inputModule56:
   class: File
-  path: python/juvenile-diabetes---primary.py
+  path: python/diabetes-screener---primary.py
 inputModule57:
   class: File
-  path: python/diabetes-niddm---primary.py
+  path: python/juvenile-diabetes---primary.py
 inputModule58:
   class: File
-  path: python/pancreatic-diabetes---primary.py
+  path: python/diabetes-niddm---primary.py
 inputModule59:
   class: File
-  path: python/multidisciplinary-diabetes---primary.py
+  path: python/pancreatic-diabetes---primary.py
 inputModule60:
   class: File
-  path: python/angiopathy-diabetes---primary.py
+  path: python/multidisciplinary-diabetes---primary.py
 inputModule61:
   class: File
-  path: python/diabetes-followup---primary.py
+  path: python/angiopathy-diabetes---primary.py
 inputModule62:
   class: File
-  path: python/stable-diabetes---primary.py
+  path: python/diabetes-followup---primary.py
 inputModule63:
   class: File
-  path: python/diabetes-monitoring---primary.py
+  path: python/stable-diabetes---primary.py
 inputModule64:
   class: File
-  path: python/diabetes-screening---primary.py
+  path: python/diabetes-monitoring---primary.py
 inputModule65:
   class: File
-  path: python/diabetes-given---primary.py
+  path: python/diabetes-screening---primary.py
 inputModule66:
   class: File
-  path: python/clinic-diabetes---primary.py
+  path: python/diabetes-given---primary.py
 inputModule67:
   class: File
-  path: python/diabetes-albumin---primary.py
+  path: python/clinic-diabetes---primary.py
 inputModule68:
   class: File
-  path: python/patient-diabetes---primary.py
+  path: python/diabetes-albumin---primary.py
 inputModule69:
   class: File
-  path: python/digital-diabetes---primary.py
+  path: python/patient-diabetes---primary.py
 inputModule70:
   class: File
-  path: python/nonketotic-diabetes---primary.py
+  path: python/digital-diabetes---primary.py
 inputModule71:
   class: File
-  path: python/moderate-diabetes---primary.py
+  path: python/nonketotic-diabetes---primary.py
 inputModule72:
   class: File
-  path: python/diabetes-excretion---primary.py
+  path: python/moderate-diabetes---primary.py
 inputModule73:
   class: File
-  path: python/diabetes-youth---primary.py
+  path: python/diabetes-excretion---primary.py
 inputModule74:
   class: File
-  path: python/diabetes-attack---primary.py
+  path: python/diabetes-youth---primary.py
 inputModule75:
   class: File
-  path: python/advanced-diabetes---primary.py
+  path: python/diabetes-attack---primary.py
 inputModule76:
   class: File
-  path: python/diabetes-examination---primary.py
+  path: python/advanced-diabetes---primary.py
 inputModule77:
   class: File
-  path: python/diabetes-nurse---primary.py
+  path: python/diabetes-examination---primary.py
 inputModule78:
   class: File
-  path: python/diabetes-needle---primary.py
+  path: python/diabetes-nurse---primary.py
 inputModule79:
   class: File
-  path: python/diabetes-manifestation---primary.py
+  path: python/diabetes-needle---primary.py
 inputModule80:
   class: File
-  path: python/exudative-diabetes---primary.py
+  path: python/diabetes-manifestation---primary.py
 inputModule81:
   class: File
-  path: python/diabetes-shared---primary.py
+  path: python/exudative-diabetes---primary.py
 inputModule82:
   class: File
-  path: python/diabetes-charcot---primary.py
+  path: python/diabetes-shared---primary.py
 inputModule83:
   class: File
-  path: python/diabetes-programme---primary.py
+  path: python/diabetes-charcot---primary.py
 inputModule84:
   class: File
-  path: python/diabetes-pregnancy---primary.py
+  path: python/diabetes-programme---primary.py
 inputModule85:
   class: File
-  path: python/diabetes-state---primary.py
+  path: python/diabetes-pregnancy---primary.py
 inputModule86:
   class: File
-  path: python/diabetes-abnormality---primary.py
+  path: python/diabetes-state---primary.py
 inputModule87:
+  class: File
+  path: python/diabetes-abnormality---primary.py
+inputModule88:
   class: File
   path: python/output-cases.py
